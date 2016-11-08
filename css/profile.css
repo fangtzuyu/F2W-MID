@@ -1,0 +1,13 @@
+.box-profile img{
+  width: 20%;
+  border-radius: 50px;
+  float: right;
+  margin-right: 15px;
+}
+.ting img{
+  float: left;
+}
+.box {
+padding: 15px;
+padding-left: 200px;
+}

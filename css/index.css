@@ -1,0 +1,123 @@
+body{
+  background-color: #C4F4EC;
+  width: 1260px;
+  margin: auto;
+  font-family: 微軟正黑體,Arial;
+  position: relative;
+}
+.container{
+  padding-left: 160px;
+  padding-right: 160px;
+  box-sizing: border-box;
+}
+
+p,a{
+  text-decoration: none;
+  color: #294331;
+}
+a:hover{
+  color: #00816C;
+}
+.content{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+
+}
+.clear{
+  clear: both;
+}
+/*NAV*/
+.box-nav{
+  position: relative;
+  padding: 5px;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+
+}
+li{
+  text-align: left;
+  list-style-type: none;
+  float: left;
+  margin-right: 60px;
+  width: 110px;
+  padding: 5px;
+  margin-left: -30px;
+  border-left: 2px solid #294331;
+  box-sizing: border-box;
+  display: block;
+}
+ul li ul{
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease .1s;
+  -moz-transition: opacity .25s ease .1s;
+  -o-transition: opacity .25s ease .1s;
+  -ms-transition: opacity .25s ease .1s;
+  transition: opacity .25s ease .1s;
+}
+ul li:hover ul{
+   opacity: 1;
+}
+ul li ul li {
+  margin-top: 5px;
+  clear: both;
+  font-size: 12px;
+  border: none;
+  margin-left: -40px;
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  -webkit-transition: height .25s ease .1s;
+  -moz-transition: height .25s ease .1s;
+  -o-transition: height .25s ease .1s;
+  -ms-transition: height .25s ease .1s;
+  transition: height .25s ease .1s;
+}
+ul li:hover > ul li {
+ height: 20px;
+ overflow: visible;
+ z-index:999;
+}
+/*NAV*/
+
+/*FOOTER*/
+footer{
+  background-color: #537F78;
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
+footer p{
+  color: #C4F4EC;
+  margin: 0px;
+  text-align: center;
+}
+.icon{
+  width: 3%;
+  float: right;
+  margin-top: -35px;
+  margin-right: 4px;
+  margin-left: 4px;
+  padding-top: 15px;
+}
+/*FOOTER*/
+
+/*HOME*/
+.Home{
+margin-left: -95px;
+  margin-top: -50px;
+  color: #294331;
+}
+.banner-dis:hover{
+  color: #00816C;
+}
+.banner-dis:click{
+  color: #14B59A;
+}
+.banner-dis{
+  text-align: center;
+  box-sizing: border-box;
+  color: #294331;
+}
+/*HOME*/
