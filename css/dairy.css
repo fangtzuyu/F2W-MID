@@ -62,6 +62,7 @@ color: #00816C;
   list-style: none;
   float: left;
   border-style: none;
+	 overflow: hidden;
 }
 #issues li h1 {
 	margin-left: -70px;
