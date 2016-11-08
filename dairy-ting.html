@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/dairy.css" media="screen"/>
+    <script src="java/jquery-3.1.1.min.js"></script>
+    <script src="java/style.js"></script>
+    <script src="java/jquery.timelinr-0.9.6.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/rwd.css"/>
+    <script>
+      $(function(){
+        $().timelinr({
+          arrowKeys: 'true'
+        })
+      });
+    </script>
+    <title>觀察記錄</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo"><a href="index.html">
+          <img src="img/LOGO.png" alt="logo" /></a>
+        </div><!--logo-->
+        <h1 class="title">觀察記錄</h1>
+        <!--hr--><span class="homepage"><a href="index.html">&#x2302</a></span>
+      </header>
+      <nav class="box-nav"style="z-index:9999;position: relative;">  <span class="menu">&#9776</span>
+        <ul>
+          <a href="profile.html"><li>PROFILE</li></a>
+          <a href="gallary.html"><li>GALLARY</a>
+            <ul>
+              <li><a href="gallary-fang.html">FANG'S</a></li>
+              <li><a href="gallary-ting.html">TING'S</a></li>
+            </ul>
+          </li>
+          <a href="dairy.html"><li>DAIRY</a>
+            <ul>
+              <li><a href="dairy-ting.html">觀察紀錄</a></li>
+              <li><a href="dairy-fang.html">每日一坑</a></li>
+            </ul>
+          </li>
+          <a href="work.html"><li>WORK</li></a>
+          <a href="contact.html"><li>CONTACT</li></a>
+
+        </ul>
+        <div class="clear"></div>
+      </nav><!--box-nav-->
+
+<div class="content">
+
+
+        <div id="timeline">
+      		<ul id="dates">
+            <li><a href="#1900">10/30</a></li>
+      			<li><a href="#1930">10/31</a></li>
+      			<li><a href="#1944">11/02</a></li>
+      			<li><a href="#1950">11/03</a></li>
+      			<li><a href="#1971">11/04</a></li>
+
+      		</ul>
+      		<ul id="issues">
+      			<li id="1900">
+      				<h1>10/30</h1>
+      				<p>天氣逐漸轉涼，少了陽光的毒辣，多了微風的涼爽，讓人不由得心情舒暢。望向窗外，看著牆上字跡雜亂的課表，又是一個忙碌的日子。雖然辛苦，然而想到，期中可以和大家一起爆肝，完成作業，不禁會心一笑，「可惡我真的好想睡覺啊！！」</p>
+      			</li>
+      			<li id="1930">
+      				<h1>10/31</h1>
+      				<p>似乎越接近冬天，食慾變得越來越強烈。白飯、雞腿、花椰菜、雞排、POCKY(沒有洋蔥小黃瓜也不要讓我看到)……。回想過去幾年，一餐吃一碗滿滿的白飯，搭配一隻雞腿，早已在一旁撐著肚皮等待消化。又想起上禮拜的某一餐，不僅把碗中豐富的飯菜吃得一乾二淨，還啜飲珍珠鮮奶好幾大口，飯後更是配上一盒POCKY，才感覺吃完一頓平常的一餐。即使食量產生巨大變化，對我而言，能享用自己想吃的食物，已是世界上最幸福的事情。</p>
+      			</li>
+      			<li id="1944">
+      				<h1>11/02</h1>
+      				<p>雖然不是運動健將，但是能盡情伸展身軀，用盡全身的力量活動筋骨，那是何等暢快！不僅可以強健身體，還能增加做事效率。說了這麼多，我還是坐在椅子上，跟室友一起追動畫。</p>
+      			</li>
+      			<li id="1950">
+      				<h1>11/03</h1>
+      				<p>日記寫著寫著，偶然發現，只要一寫到食物，彷彿文豪上身，文思泉湧，竭盡心思把腦中僅存的詞彙全力下筆寫入。雖然不知道這是不是好事，但似乎，也不壞啊！</p>
+      			</li>
+      			<li id="1971">
+      				<h1>11/04</h1>
+      				<p>每到週末，我常常思考一個問題：為什麼自己的自然醒永遠比別人還久？設定八小時的鬧鐘，卻還是難以叫醒沉睡其中的我，這樣令人困擾的問題，還是先睡一覺再說吧！</p>
+      			</li>
+
+      		</ul>
+      		<div id="grad_left"></div>
+      		<div id="grad_right"></div>
+      		<a href="#" id="next">+</a>
+      		<a href="#" id="prev">-</a>
+      	</div>
+
+</div>
+    </div><!--container-->
+    <footer>
+      <p>Copyright © 2016 FangTing</p>
+      <a href="https://zh-tw.facebook.com/" target="_blank"><img class="icon"  src="img/facebook.png" alt="fb" /></a>
+      <a href="https://line.me/zh-hant/" target="_blank"><img class="icon"  src="img/line.png" alt="line" /></a>
+      <a href="https://www.plurk.com/top" target="_blank"><img class="icon"  src="img/plurk.png" alt="plurk" /></a>
+      <div class="clear"></div>
+    </footer><!--footbox-->
+  </body>
+</html>
