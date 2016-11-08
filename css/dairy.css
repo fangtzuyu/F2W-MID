@@ -58,13 +58,13 @@ color: #00816C;
 }
 #issues li {
   width: 1200px;
-  
+  margin-left: -70px;
   list-style: none;
   float: left;
   border-style: none;
 }
 #issues li h1 {
-  margin-left: 140px;
+	margin-left: -70px;
   color:  #00816C;
   font-size: 48px;
   margin-top: 100px;
