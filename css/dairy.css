@@ -64,7 +64,7 @@ color: #00816C;
   border-style: none;
 }
 #issues li h1 {
-	
+  margin-left: -70px;
   color:  #00816C;
   font-size: 48px;
   margin-top: 100px;
