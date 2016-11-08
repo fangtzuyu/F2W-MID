@@ -22,7 +22,7 @@ color: #00816C;
 
 #timeline {
 	margin: 15px;
-  height: 350px;
+  height: 450px;
   overflow: hidden;
   position: relative;
   background: url('../img/biggerdot-1.png') left 60px repeat-x;
@@ -37,7 +37,7 @@ color: #00816C;
   list-style: none;
   float: left;
   margin-right: -5px;
-  width: 120px;
+  width: 150px;
   height: 50px;
   font-size: 24px;
   text-align: center;
@@ -53,7 +53,7 @@ color: #00816C;
 }
 #issues {
   width: 800px;
-  height: 350px;
+  height: 450px;
   overflow: hidden;
 }
 #issues li {
@@ -69,9 +69,10 @@ color: #00816C;
   margin-top: 100px;
 }
 #issues li p {
-  padding-top: 15px;
-  margin-left: 200px;
-  line-height: 22px;
+	width: 700px;
+  padding-top: 0px;
+  margin-left: 150px;
+	line-height: 2rem;
 }
 
 
